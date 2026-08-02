@@ -10,6 +10,7 @@ For Image Segmentation, it first uses YOLO11-seg (yolo11n-seg.pt), which extends
 
 The notebook also covers essential Evaluation Metrics like IoU (Intersection over Union) to measure localization accuracy, Precision (few false alarms), Recall (few missed detections), and mAP (mean Average Precision), which is a common benchmark for overall performance.
 
+# Results
 Here's a summary of the results and performance observed:
 
 Object Detection (YOLO11): Successfully identified objects like buses and people with confidence scores (e.g., bus at 94%, persons at 62-88%). It showed how adjusting the confidence threshold impacts the number of detections, highlighting a trade-off between sensitivity and false positives. Inference times were fast (e.g., 463.0ms for bus.jpg).
@@ -20,9 +21,10 @@ Foundation Model Segmentation (SAM 2): When prompted by YOLO11's bounding boxes,
 
 Metrics (Conceptual): The lab explained key evaluation metrics: IoU (Intersection over Union) for localization accuracy, Precision (few false alarms), Recall (few missed events), and mAP (mean Average Precision) as a comprehensive benchmark score. While not calculated in the lab, their importance and trade-offs were discussed.
 
+# Key Findings
 I learned about the three core CV tasks (Image Classification, Object Detection, and Image Segmentation).
 
-# Technologies Used:
+# Technologies Used
 (Libraries): MatPlotlib, PIL.Image (Pillow), Numpy, Urllib.Request, Matplotlib.Patches.Rectangle, Ultralytics, YOLO11 (yolo11n.pt), YOLO11-seg (yolo11n-seg.pt), and Segment Anything Model 2 (SAM 2, sam2.1_s.pt)
 
 
