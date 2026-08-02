@@ -1,3 +1,4 @@
+# Problem Statement
 The problem that this project in this notebook solves is teaching an agent how to balance a pole using two methods:
 
 Running a random agent: To observe its immediate failure in a classic RL environment.
@@ -40,7 +41,9 @@ I learned what exploitation, exploration and what the reward signal is.
 
 # Technologies Used
 (Libraries): Gymnasium, Numpy, Matplotlib, and Warnings.
+
 (Frameworks): Gymnasium
+
 (Tool): pip
 
 # How to Run
