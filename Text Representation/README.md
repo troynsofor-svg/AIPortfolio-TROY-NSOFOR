@@ -27,6 +27,7 @@ Text Classification (Multinomial Naive Bayes): You built a sentiment classificat
 
 Feature Importance Analysis: This was applied to understand which words contributed most to the classification decisions.
 
+# Results
 Here's a summary of the results, including metrics, accuracy, and performance:
 
 Overall Classification Accuracy:
@@ -51,7 +52,6 @@ Recall: 0.47 (meaning the model correctly identified 47% of all actual positive 
 F1-Score: 0.58.
 
 # Key Observations:
-
 All three text representation methods performed identically in terms of overall accuracy and class-specific metrics on this particular dataset and classification task.
 The model showed higher recall for negative reviews (0.87) but lower recall for positive reviews (0.47). Conversely, its precision for positive reviews (0.78) was higher than for negative reviews (0.62).
 The feature analysis for TF-IDF identified words like 'francie', 'homer', and 'great' as top positive features, and 'girls', 'prinze', and 'ho' as top negative features.
