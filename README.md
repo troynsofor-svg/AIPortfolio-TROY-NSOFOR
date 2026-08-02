@@ -2,8 +2,11 @@
 Applied AI Portfolio - Houston Community College
 
 Troy Nsofor
+
 8/1/2026
+
 Mrs. Esmalifalak
+
 ITAI-1378
 
 ## About Me:
