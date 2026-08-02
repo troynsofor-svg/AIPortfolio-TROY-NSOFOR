@@ -29,3 +29,6 @@ I learned about the three core CV tasks (Image Classification, Object Detection,
 (Framework) Ultralytics library
 
 # How to Run
+1. Open Google Colab
+2. Go to and click on File (Open Notebook)
+3. Click and look for L06_Nsofor_Troy_ITAI_1378.ipynb or L06_Nsofor_Troy_ITAI_1378.
