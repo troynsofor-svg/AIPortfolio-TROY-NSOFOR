@@ -1,10 +1,10 @@
 # AIPortfolio-TROY-NSOFOR
 Applied AI Portfolio - Houston Community College
-
+# Name
 Troy Nsofor
-
+# Date
 8/1/2026
-
+# Teacher
 Mrs. Esmalifalak
 
 ITAI-1378
