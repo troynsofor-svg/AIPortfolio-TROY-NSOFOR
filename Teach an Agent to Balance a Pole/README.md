@@ -43,4 +43,7 @@ I learned what exploitation, exploration and what the reward signal is.
 (Frameworks): Gymnasium
 (Tool): pip
 
-How to Run
+# How to Run
+Open Google Colab
+Go to and click on File (Open Notebook)
+Click and look for L09_Troy_ITAI_2376.ipynb (or L09_Troy_ITAI_2376)
