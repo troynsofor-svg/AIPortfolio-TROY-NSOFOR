@@ -44,6 +44,6 @@ I learned what exploitation, exploration and what the reward signal is.
 (Tool): pip
 
 # How to Run
-Open Google Colab
-Go to and click on File (Open Notebook)
-Click and look for L09_Troy_ITAI_2376.ipynb (or L09_Troy_ITAI_2376)
+1. Open Google Colab
+2. Go to and click on File (Open Notebook)
+3. Click and look for L09_Troy_ITAI_2376.ipynb (or L09_Troy_ITAI_2376)
