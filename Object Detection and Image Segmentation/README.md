@@ -23,10 +23,10 @@ Metrics (Conceptual): The lab explained key evaluation metrics: IoU (Intersectio
 I learned about the three core CV tasks (Image Classification, Object Detection, and Image Segmentation).
 
 # Technologies Used:
-(Libraries) MatPlotlib, PIL.Image (Pillow), Numpy, Urllib.Request, Matplotlib.Patches.Rectangle, Ultralytics, YOLO11 (yolo11n.pt), YOLO11-seg (yolo11n-seg.pt), and Segment Anything Model 2 (SAM 2, sam2.1_s.pt)
+(Libraries): MatPlotlib, PIL.Image (Pillow), Numpy, Urllib.Request, Matplotlib.Patches.Rectangle, Ultralytics, YOLO11 (yolo11n.pt), YOLO11-seg (yolo11n-seg.pt), and Segment Anything Model 2 (SAM 2, sam2.1_s.pt)
 
 
-(Framework) Ultralytics library
+(Framework): Ultralytics
 
 # How to Run
 1. Open Google Colab
