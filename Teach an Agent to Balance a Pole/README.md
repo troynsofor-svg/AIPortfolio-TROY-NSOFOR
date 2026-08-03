@@ -39,7 +39,7 @@ Observation: The Q-Learning agent successfully learned how to balance the pole f
 Original Agent (ε decay = 0.995): Final-50 mean score: 54.4
 Agent A (Fast Decay, ε decay = 0.990): Final-50 mean score: 44.4
 Agent B (Slow Decay, ε decay = 0.999): Final-50 mean score: 31.3
-Observation: The regular agent with a average decay rate (0.995) performed better than the other three tested agents, accomplishing the highest mean score in the final 50 episodes. Agent A (faster decay) performed badly than the regular agent, and Agent B (slower decay) performed more badly, recommending that an optimal balance between exploration and exploitation is important for proficient learning in this world.
+Observation: The regular agent with a average decay rate (0.995) performed better than the other three tested agents, accomplishing the highest mean score in the final 50 episodes. Agent A (faster decay) performed badly than the regular agent, and Agent B (slower decay) performed more badly, recommending that an optimal balance between exploration and exploitation is important for proficient learning in the world.
 
 # Key Findings
 I learned what exploitation, exploration and what the reward signal is.
