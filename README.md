@@ -27,7 +27,7 @@ Natural Language Processing (ITAI 2373)
 [Text Representation] (https://colab.research.google.com/drive/1-nQRQqDlRBF6fWg0QuWkldtzuK6akCrS?hl=en-GB#scrollTo=header)
 
 Computer Vision (ITAI 1378)
-[Video Analysis and Object Tracking] (https://colab.research.google.com/drive/1urwgpiwh415_HdmERqvzR67gm3DXVrc-?hl=en-GB)
+[Object Detection and Image Segmentation] (https://colab.research.google.com/drive/1uzZeRaxqKLULIlbswdxw5eLc4Ck8X58p?hl=en-GB#scrollTo=YkAqb2NjSJ6i)
 
 ## Contact
 Email: troynsofor@gmail.com
