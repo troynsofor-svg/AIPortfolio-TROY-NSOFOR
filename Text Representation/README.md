@@ -1,7 +1,7 @@
 # Problem Statement:
 While computers perform (or function) on numerical data, the main problem the project solves is how to proficiently change raw text into numerical descriptions that algorithms could explain.
 
-Throughout the notebook, the problem describes and investigates different techniques for this transformation, beginning from fundamental techniques such as preprocessing and Bag of Words (BOW), then to more advanced weighted descriptions such as TF-IDF and N-grams, and lastly delving into dense representations like word embeddings. The ultimate goal is to utilize these descriptions to real-world tasks, like building a text classification system for sentiment analysis, and to comprehend the trade-offs and moral considerations included in every approach.
+Throughout the notebook, the problem describes and investigates different techniques for this transformation, beginning from fundamental techniques such as preprocessing and Bag of Words (BOW), then to more advanced weighted descriptions such as TF-IDF and N-grams, and lastly delving into dense representations like word embeddings. The ultimate goal is to utilize these descriptions to real-world tasks, like creating a text classification system for sentiment analysis, and to comprehend the trade-offs and moral considerations included in all the approaches.
 
 # Approach:
 I solved it by converting human language (text) into a numerical format that machine learning algorithms could comprehend and process. I solved this by investigating and executing some text representation techniques and algorithms.
@@ -25,7 +25,7 @@ Cosine Similarity: Used to calculate the similarity between text embeddings prod
 
 Text Classification (Multinomial Naive Bayes): I've created a sentiment classification system using this algorithm, by comparing its performance with various vectorizations.
 
-Feature Importance Analysis: This was used to comprehend which words contributed most to the classification decisions.
+Feature Importance Analysis: This was used for comprehending which words contributed the most to the classification choices.
 
 # Results
 Here's the breakdown of the results, including metrics, accuracy, and performance:
@@ -39,6 +39,7 @@ Feature Comparison:
 BOW: Applied 1000 features.
 TF-IDF: Applied 1000 features.
 N-grams: Applied 1000 features (with ngram_range=(1, 2)).
+
 Detailed Performance Metrics (for every method, as they yielded the same results):
 
 # Negative Class (Label 0):
