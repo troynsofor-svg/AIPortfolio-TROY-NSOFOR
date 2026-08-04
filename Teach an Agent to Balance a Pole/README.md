@@ -12,10 +12,12 @@ I solved the problem by using the two main techiques/algorithms to address the p
 Random Agent: This acts as the baseline, highlighting how the agent operates with no learning. It easily takes random actions (like pushing the cart left or right) in every step.
 
 Q-Learning Agent: This is the main reinforcement learning algorithm that was executed. 
-It applies:
-Q-Table: A lookup table to keep the calculated value of taking a concrete action in a provided state.
+It applies the Q-Table which is a lookup table to keep the calculated value of taking a concrete action in a provided state.
+
 State Discretization (Binning): To manage the persistent state space of CartPole, the state variables are separated into different bins.
+
 Epsilon-Greedy Exploration: A method to balance exploration (attempting to do new actions) and exploitation (applying good actions that are recognized). In the beginning, the agent investigates more, then as it learns, it exploits more.
+
 Q-Learning Update Rule: This rule upgrades the Q-table derived from the reward received and the calculated future rewards, enabling the agent to learn which actions caused better results over time.
 
 # Results
@@ -29,8 +31,8 @@ Observation: The random agent compatibly failed rapidly, describing that random 
 
 2. Original Q-Learning Agent Performance (Epsilon Decay: 0.995)
 Training Progress (Average Score of Last 50 Episodes):
-Initially (first 50 events): 18.5
-Towards the end (last 50 events): 54.4
+Initially (first 50 episodes): 18.5
+Towards the end (last 50 episodes): 54.4
 Overall Final Average Score (last 50 episodes): 54.4 timesteps survived.
 Improvement over Random Agent: The Q-Learning agent demonstrated an enhancement of 30.8 points across the random agent's average score (54.4 - 23.6).
 Learning Curve: The rolling average score (orange line) demonstrated a clear upward trend, meaning that the agent learned over a period of time. It compatibly beat the random agent's mean score at around episode 144.
@@ -57,3 +59,4 @@ I learned what exploitation, exploration and what the reward signal is.
 1. Open Google Colab
 2. Go to and click on File (Open Notebook)
 3. Click and look for L09_Troy_ITAI_2376.ipynb (or L09_Troy_ITAI_2376)
+4. Run all the cells from top to bottom.
