@@ -76,3 +76,4 @@ I learned about the Common Preprocessing Steps (Lowercasing, Removing punctuatio
 1. Open Google Colab
 2. Go to and click on File (Open Notebook)
 3. Click on L04_Text_Representation_ITAI_2373_Lab-1.ipynb
+4. Run all the cells from top to bottom.
