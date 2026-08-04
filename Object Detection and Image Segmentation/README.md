@@ -15,7 +15,7 @@ Here's the summary of the results and performance examined:
 
 Object Detection (YOLO11): Successfully spotted objects such as buses and people with probability scores (e.g., bus at 94%, persons at 62-88%). It displayed how changing the confidence threshold affects the number of detections, emphasizing a trade-off between responsiveness and false positives. Inference times were quick (e.g., 463.0ms for bus.jpg).
 
-Instance Segmentation (YOLO11-seg): Provided pixel-level masks for detected objects, introducing more correct outlines than bounding boxes. For example, it segmented 4 people, 1 bus, and 1 stop sign from the bus.jpg file. Segmentation produces a higher detail but is usually a little slower than pure detection (e.g., 303.6ms for bus.jpg).
+Instance Segmentation (YOLO11-seg): Provided pixel-level masks for detected objects, introducing more correct outlines than bounding boxes. For example, it segmented 4 people, 1 bus, and 1 stop sign from bus.jpg. Segmentation produces a higher detail but is usually a little slower than pure detection (e.g., 303.6ms for bus.jpg).
 
 Foundation Model Segmentation (SAM 2): When prompted by YOLO11's bounding boxes, SAM 2 provided high-quality, precise masks. But, SAM 2 is essentially slower (e.g., 14715.2ms for bus.jpg) and does not produce object labels, differentiating with specialist models such as YOLO11-seg.
 
@@ -33,4 +33,5 @@ I learned about the three core CV tasks (Image Classification, Object Detection,
 # How to Run
 1. Open Google Colab
 2. Go to and click on File (Open Notebook)
-3. Click and look for L06_Nsofor_Troy_ITAI_1378.ipynb or L06_Nsofor_Troy_ITAI_1378.
+3. Click and look for the L06_Nsofor_Troy_ITAI_1378.ipynb file
+4. Run all the cells from top to bottom
