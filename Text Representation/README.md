@@ -18,9 +18,11 @@ TF-IDF (Term Frequency-Inverse Document Frequency): This technique designated we
 N-grams: I investigated n-grams (sequences of words such as bigrams and trigrams) to catch several word orders and context that BOW and fundamental TF-IDF may skip.
 
 Dense Representations:
+
 Word Embeddings (GloVe): I applied pre-trained word embeddings to describe words as dense vectors, catching semantic relationships and enabling for word arithmetic.
 
 Applications and Analysis:
+
 Cosine Similarity: Used to calculate the similarity between text embeddings produced by BOW and TF-IDF.
 
 Text Classification (Multinomial Naive Bayes): I've created a sentiment classification system using this algorithm, by comparing its performance with various vectorizations.
