@@ -11,6 +11,7 @@ Here's a breakdown of each:
 Text Preprocessing: I began by cleaning the text through steps such as lowercasing, eliminating punctuation, tokenization, eliminating stop words, and stemming.
 
 Sparse Representations:
+
 Bag of Words (BOW): I executed this to describe text as a count of word occurrences, crucially losing word order but catching word frequency.
 
 TF-IDF (Term Frequency-Inverse Document Frequency): This technique designated weights to words derived from their frequency in a document and their rarity over the whole dataset, emphasizing critical terms.
