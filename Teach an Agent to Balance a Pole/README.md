@@ -1,7 +1,9 @@
 # Problem Statement
 The problem that this project in this notebook solves is teaching an agent how to balance a pole using two methods:
 
+
 Running a random agent: To examine its instant failure in a classic RL (Reinforcement Learning) world.
+
 Running a Q-Learning agent: To notice how it learns over time and enhances its performance.
 
 # Approach
