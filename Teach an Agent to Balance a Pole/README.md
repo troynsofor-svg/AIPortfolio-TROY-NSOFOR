@@ -4,7 +4,7 @@ The problem that this project in this notebook solves is teaching an agent how t
 
 Running a random agent: To examine its instant failure in a classic RL (Reinforcement Learning) world.
 
-Running a Q-Learning agent: To notice how it learns over time and enhances its performance.
+Running a Q-Learning agent: To notice how it learns over time and to enhance its performance.
 
 # Approach
 I solved the problem by using the two main techiques/algorithms to address the pole-balancing scenario:
@@ -37,7 +37,7 @@ Overall Final Average Score (last 50 episodes): 54.4 timesteps survived.
 Improvement over Random Agent: The Q-Learning agent demonstrated an enhancement of 30.8 points across the random agent's average score (54.4 - 23.6).
 Learning Curve: The rolling average score (orange line) demonstrated a clear upward trend, meaning that the agent learned over a period of time. It compatibly beat the random agent's mean score at around episode 144.
 Epsilon (Exploration Rate):Began at 1.0 (entirely at random) and decayed to 0.0816 by the last of the 500 episodes, representing a transition from exploration to exploitation.
-Observation: The Q-Learning agent successfully learned how to balance the pole for crucially long durations compared to the random agent, describing the efficiency of the Q-learning algorithm.
+Observation: The Q-Learning agent successfully learned how to balance the pole for significant long durations compared to the random agent, describing the efficiency of the Q-learning algorithm.
 
 3. Comparison of Q-Learning Agents (Different Epsilon Decay Rates)
 Original Agent (ε decay = 0.995): Final-50 mean score: 54.4
