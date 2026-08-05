@@ -64,7 +64,7 @@ The feature analysis for TF-IDF spotted words such as 'francie', 'homer', and 'g
 I learned about the Common Preprocessing Steps (Lowercasing, Removing punctuation, Tokenization, Removing stop words, and Stemming).
 
 # Technologies Used:
-(Libraries): Scikit-Learn, Matplotlib, Seaborn, Gensim, Wordcloud, NLTK, Numpy, Pandas
+(Libraries): Scikit-Learn, Matplotlib, Seaborn, Gensim, Wordcloud, NLTK, Numpy, and Pandas
 
 
 (Tools): NLTK (Natural Language Toolkit), Gensim, Scikit-Learn, Pandas, Matplotlib and Seaborn
